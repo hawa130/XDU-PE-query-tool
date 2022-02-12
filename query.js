@@ -20,7 +20,7 @@ const commonHeaders = {
   sign: calcSign(body),
 };
 
-// 查询两个函数返回的结构
+// 两个查询函数返回的结构
 // {
 //   total: number,
 //   data: [
