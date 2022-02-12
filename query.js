@@ -10,7 +10,7 @@ const body = {
   pageIndex: 1,
   pageSize: 150,
   userNum: username,
-  sysTermId: 11,
+  sysTermId: 12,
 };
 const commonHeaders = {
   'Content-Type': 'application/x-www-form-urlencoded',
@@ -25,17 +25,17 @@ const commonHeaders = {
 //   total: number,
 //   data: [
 //     {
-//       sysUserName: String,
-//       machineName: String,
-//       weekNum: String,
-//       punchDay: String,
-//       punchTime: String,
-//       state: String
+//       sysUserName: string,
+//       machineName: string,
+//       weekNum: string,
+//       punchDay: string,
+//       punchTime: string,
+//       state: string
 //     }
 //   ],
-//   returnCode: String,
-//   returnMsg: null,
-//   returnData: null
+//   returnCode: string,
+//   returnMsg: string,
+//   returnData: any
 // }
 
 // 查询有效打卡记录
